@@ -28,7 +28,7 @@ set showmatch "Show matching brackets when text indicator is over it
 set nobackup " No backup files
 set nowritebackup " Changes default 'save' mode
 set paste " Allows paste to be used across applications
-set pastetoggle = <F2> " Toggles paste
+set pastetoggle=<F2> " Toggles paste
 
 "Save shortcuts
 map <Space> <leader>
