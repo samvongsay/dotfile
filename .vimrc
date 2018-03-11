@@ -3,32 +3,42 @@ syntax enable " Enables syntax highlighting
 
 "Vim interface
 set cmdheight=2
-set relativenumber " Relative number compared to the cursor
-set number	" Absolute number where the cursor is
-set nocompatible " Use vim settings rather than Vi settings
-set laststatus=2 " File name on bottom is different color
+set relativenumber		" Relative number compared to the cursor
+set number				" Absolute number where the cursor is
+set nocompatible		" Use vim settings rather than Vi settings
+set laststatus=2		" File name on bottom is different color
 set bs=indent,eol,start " Standardizes backspace
-set tabstop=4	" Changes spacing for tab key
-set softtabstop=4 "Changes spacing for tab key when editing
+set tabstop=4			" Changes spacing for tab key
+set softtabstop=4		" Changes spacing for tab key when editing
+set expandtab			" Tabs as spaces
 
-set ai " Auto indent: Indents next line same level as the previous
-set ruler " Show the cursor position all the time on bottom
+set ai					" Auto indent: Indents next line same level as the previous
+set ruler				" Show the cursor position all the time on bottom
+set cursorline          " Highlight current line
+set wildmenu            " Visual autocomplete for command menu
 
 "Search rules
-set hlsearch " Highlight search
-set incsearch " Search as characters are entered
-set incsearch " Ignore case search
+set hlsearch			" Highlight search
+set incsearch			" Search as characters are entered
+set incsearch			" Ignore case search
 
 "Customize status
-set showcmd " Show incomplete commands
+set showcmd				" Show incomplete commands
 set showmode
-set showmatch "Show matching brackets when text indicator is over it
+set showmatch			"Show matching brackets when text indicator is over it
 
 "Save settings
-set nobackup " No backup files
-set nowritebackup " Changes default 'save' mode
+set nobackup			" No backup files
+set nowritebackup		" Changes default 'save' mode
 
-"Save shortcuts
+"Better efficiency
+inoremap jk <ESC>
+nnoremap B ^            
+nnoremap E $
+nnoremap $ <nop>
+nnoremap ^ <nop>
+
+"Save shortcuts - File manage
 map <Space> <leader>
 map <Leader>w :update<CR> 
 map <Leader>q :q<CR>
