@@ -10,6 +10,8 @@ alias gadd='git add '
 alias gbr='git branch '
 alias gc='git commit -m '
 alias go='git checkout  '
+alias gpsh='git push '
+alias gpull='git pull '
 alias gs='git status '
 
 alias ..='cd ..'
