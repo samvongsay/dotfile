@@ -17,7 +17,9 @@ alias ...='cd ../..'
 alias .4='cd ../../..'
 alias .5='cd ../../../..'
 
-alias v='vim'
+alias v='vim '
+alias install='dnf install '
+alias remove='dnf remove '
 
 # User specific environment and startup programs
 export SPARK_HOME=/usr/local/spark
