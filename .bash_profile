@@ -24,9 +24,3 @@ alias install='dnf install '
 alias remove='dnf remove '
 
 # User specific environment and startup programs
-export SPARK_HOME=/usr/local/spark
-export HADOOP_HOME=/usr/local/hadoop
-export PYTHON_PATH=$SPARK_HOME/python/:$PYTHON_PATH
-
-PATH=$PATH:$PYTHON_PATH
-export PATH
