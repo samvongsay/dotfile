@@ -20,7 +20,6 @@ set wildmenu            " Visual autocomplete for command menu
 "Search rules
 set hlsearch			" Highlight search
 set incsearch			" Search as characters are entered
-set incsearch			" Ignore case search
 
 "Customize status
 set showcmd				" Show incomplete commands
@@ -55,3 +54,14 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+
+"Automatically start netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 4
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+augroup ProjectDrawer
+    autocmd!
+    autocmd VimEnter * :Vexplore
+augroup END
