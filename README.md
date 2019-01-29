@@ -5,7 +5,6 @@ If you have any suggestion on how I can improve my workflow, I am more than happ
 Files
 ==================
 * tmux.sh
-* .bashrc
 * .bash_profile
 * .vimrc
 * .gitconfig
