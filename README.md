@@ -9,3 +9,7 @@ Files
 * .bash_profile
 * .vimrc
 * .gitconfig
+
+Notice
+==================
+Use gitconfig if bash profile cannot be used.
