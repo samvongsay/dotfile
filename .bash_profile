@@ -5,21 +5,25 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
-#Alias
-alias gadd='git add '
-alias gbr='git branch '
+#Git Alias
+alias ga='git add '
+alias bra='git branch '
 alias gc='git commit -m '
 alias go='git checkout  '
-alias gpsh='git push '
+alias gp='git push '
 alias gpull='git pull '
 alias gs='git status '
 
+#File Directory Alias
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .4='cd ../../..'
 alias .5='cd ../../../..'
 
+#Application Alias
 alias v='vim '
+
+# Fedora-based Alias
 alias install='dnf install '
 alias remove='dnf remove '
 
