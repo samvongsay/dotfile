@@ -5,12 +5,15 @@ syntax enable " Enables syntax highlighting
 set cmdheight=2
 set relativenumber		" Relative number compared to the cursor
 set number				" Absolute number where the cursor is
-set nocompatible		" Use vim settings rather than Vi settings
 set laststatus=2		" File name on bottom is different color
+
+"Vim behavior
+set nocompatible		" Use vim settings rather than Vi settings
 set bs=indent,eol,start " Standardizes backspace
 set tabstop=4			" Changes spacing for tab key
 set softtabstop=4		" Changes spacing for tab key when editing
 set expandtab			" Tabs as spaces
+set paste               " Allows paste with no automatic indentation
 
 set ai					" Auto indent: Indents next line same level as the previous
 set ruler				" Show the cursor position all the time on bottom
