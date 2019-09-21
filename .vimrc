@@ -16,6 +16,7 @@ set nocompatible		" Use vim settings rather than Vi settings
 set paste               " Allows paste with no automatic indentation
 set softtabstop=4		" Changes spacing for tab key when editing
 set tabstop=4			" Changes spacing for tab key
+set paste				" Disallow auto-indent for paste from clipboard
 
 set ai					" Auto indent: Indents next line same level as the previous
 set cursorline          " Highlight current line
